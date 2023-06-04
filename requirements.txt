@@ -1,9 +1,6 @@
 deepface==0.0.75
-kivy[full]~=2.1.0
-keras~=2.12.0
-opencv-python~=4.7.0.72
-numpy~=1.23.5
-imutils~=0.5.4
-title = MFTI
-author = kim
-orientation=landscape
+kivy[full]==2.1.0
+keras==2.12.0
+opencv-python==4.7.0.72
+numpy==1.23.5
+imutils==0.5.4
