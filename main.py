@@ -1,5 +1,4 @@
 import cv2
-import os
 import random
 from kivy.app import App
 from kivy.uix.image import Image
@@ -12,8 +11,6 @@ from urllib.request import urlopen
 from deepface import DeepFace
 from kivy.clock import Clock
 from kivy.uix.popup import Popup
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.screenmanager import ScreenManager, Screen
 
 fontName='SUITE-Variable.ttf'
 
@@ -51,7 +48,7 @@ class KivyCamera(Image):
     textout = ""
     isPlaying = False
     frame = ""
-    menu_images = ['food1.jpg', 'food2.jpg', 'food3.jpg', 'food4.jpg']
+    menu_images = []
     rank = {}
 
     def __init__(self, capture, fps, layout, **kwargs):
