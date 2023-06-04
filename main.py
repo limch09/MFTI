@@ -176,7 +176,7 @@ class NewWindowContent(BoxLayout):
 class MFTI(App):
     def build(self):
         # Icon
-        self.icon = 'assets/logo.png'
+        self.icon = 'assets/logo.jpg'
 
         # Layout
         floatLayout = FloatLayout()
